@@ -90,13 +90,13 @@ Time Tracker API is a RESTful API for tracking task execution time by users. It 
 
 # Database configuration
 
-```.env
+	`
 	DB_HOST=localhost
 	DB_PORT=5432
 	DB_USER=admin_timetracker
 	DB_PASSWORD=1111 
 	DB_NAME=timetracker
-	```
+	`
 
 # External API URL for fetching user information
 
