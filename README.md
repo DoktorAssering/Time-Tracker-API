@@ -100,6 +100,7 @@ Install dependencies:
 Run the project:
 
 	go run main.go
+	```
 
 ## 📚 Documentation
 
