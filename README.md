@@ -129,21 +129,21 @@ API documentation is available at /swagger/index.html.
 
 ## 🛠️ Endpoints
 
-POST /users - Create a new user
+ - POST /users - Create a new user
 
-GET /users/:id - Get user by ID
+ - GET /users/:id - Get user by ID
 
-PUT /users/:id - Update user by ID
+ - PUT /users/:id - Update user by ID
 
-DELETE /users/:id - Delete user by ID
+ - DELETE /users/:id - Delete user by ID
 
-GET /users - Get list of users with filtering and pagination
+ - GET /users - Get list of users with filtering and pagination
 
-POST /tasks - Start a new task for a user
+ - POST /tasks - Start a new task for a user
 
-PUT /tasks/:id/end - End a task by ID
+ - PUT /tasks/:id/end - End a task by ID
 
-GET /users/:user_id/tasks - Get tasks of a user for a specific period
+ - GET /users/:user_id/tasks - Get tasks of a user for a specific period
 
 ## 🤝 Contributing
 
