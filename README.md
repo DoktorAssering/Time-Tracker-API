@@ -20,15 +20,13 @@ Time Tracker API - это RESTful API для отслеживания време
 
 # Настройки подключения к базе данных
 
-DB_HOST=localhost
-
-DB_PORT=5432
-
-DB_USER=admin_timetracker
-
-DB_PASSWORD=1111 
-
-DB_NAME=timetracker
+	```.env
+	DB_HOST=localhost
+	DB_PORT=5432
+	DB_USER=admin_timetracker
+	DB_PASSWORD=1111 
+	DB_NAME=timetracker
+	```
 
 # URL внешнего API для получения информации о пользователе
 
@@ -50,21 +48,14 @@ API документация доступна по адресу /swagger/index.h
 
 ## 🛠️ Эндпоинты
 
-POST /users - Создать нового пользователя
-
-GET /users/:id - Получить пользователя по ID
-
-PUT /users/:id - Обновить пользователя по ID
-
-DELETE /users/:id - Удалить пользователя по ID
-
-GET /users - Получить список пользователей с фильтрацией и пагинацией
-
-POST /tasks - Начать новую задачу для пользователя
-
-PUT /tasks/:id/end - Завершить задачу по ID
-
-GET /users/:user_id/tasks - Получить задачи пользователя за период
+ - POST /users - Создать нового пользователя
+ - GET /users/:id - Получить пользователя по ID
+ - PUT /users/:id - Обновить пользователя по ID
+ - DELETE /users/:id - Удалить пользователя по ID
+ - GET /users - Получить список пользователей с фильтрацией и пагинацией
+ - POST /tasks - Начать новую задачу для пользователя
+ - PUT /tasks/:id/end - Завершить задачу по ID
+ - GET /users/:user_id/tasks - Получить задачи пользователя за период
 
 ## 🤝 Вклад
 
@@ -99,15 +90,13 @@ Time Tracker API is a RESTful API for tracking task execution time by users. It 
 
 # Database configuration
 
-DB_HOST=localhost
-
-DB_PORT=5432
-
-DB_USER=admin_timetracker
-
-DB_PASSWORD=1111
-
-DB_NAME=timetracker
+```.env
+	DB_HOST=localhost
+	DB_PORT=5432
+	DB_USER=admin_timetracker
+	DB_PASSWORD=1111 
+	DB_NAME=timetracker
+	```
 
 # External API URL for fetching user information
 
@@ -130,19 +119,12 @@ API documentation is available at /swagger/index.html.
 ## 🛠️ Endpoints
 
  - POST /users - Create a new user
-
  - GET /users/:id - Get user by ID
-
  - PUT /users/:id - Update user by ID
-
  - DELETE /users/:id - Delete user by ID
-
  - GET /users - Get list of users with filtering and pagination
-
  - POST /tasks - Start a new task for a user
-
  - PUT /tasks/:id/end - End a task by ID
-
  - GET /users/:user_id/tasks - Get tasks of a user for a specific period
 
 ## 🤝 Contributing
