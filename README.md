@@ -8,12 +8,10 @@ Time Tracker API - это RESTful API для отслеживания време
 
 1. Клонируйте репозиторий:
 
-		```bash
 		git clone https://github.com/yourusername/time-tracker-api.git
 
 Перейдите в директорию проекта:
 
-		```
 		cd time-tracker-api
 
 Создайте новый файл .env, или используйте уже готовый .env файл.
@@ -32,12 +30,10 @@ API_URL=http://example.com/api - Возьмите свой URL-адрес API и
 
 Установите зависимости:
 		
-		```bash
 		go mod tidy
 
 Запустите проект:
 		
-		```bash
 		go run main.go
 
 ## 📚 Документация
@@ -76,12 +72,10 @@ Time Tracker API is a RESTful API for tracking task execution time by users. It 
 ## 🚀 Installation
 Clone the repository:
 
-		```bash
 		git clone https://github.com/yourusername/time-tracker-api.git
 
 Navigate to the project directory:
 
-		```bash
 		cd time-tracker-api
 
 Create a new .env file or use an existing .env file:
@@ -100,12 +94,10 @@ API_URL=http://example.com/api - Take your API URL and paste it into the .env fi
 
 Install dependencies:
 
-		```bash
 		go mod tidy
 
 Run the project:
 
-		```bash
 		go run main.go
 
 ## 📚 Documentation
