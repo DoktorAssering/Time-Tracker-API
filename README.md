@@ -10,13 +10,11 @@ Time Tracker API - это RESTful API для отслеживания време
 
 		```bash
 		git clone https://github.com/yourusername/time-tracker-api.git
-		```
 
 Перейдите в директорию проекта:
 
-		```bash
-		cd time-tracker-api
 		```
+		cd time-tracker-api
 
 Создайте новый файл .env, или используйте уже готовый .env файл.
 
@@ -33,15 +31,14 @@ DB_NAME=timetracker
 API_URL=http://example.com/api - Возьмите свой URL-адрес API и вставьте его в файл .env.
 
 Установите зависимости:
+		
 		```bash
 		go mod tidy
-		```
 
 Запустите проект:
 		
 		```bash
 		go run main.go
-		```
 
 ## 📚 Документация
 
@@ -81,13 +78,11 @@ Clone the repository:
 
 		```bash
 		git clone https://github.com/yourusername/time-tracker-api.git
-		```
 
 Navigate to the project directory:
 
 		```bash
 		cd time-tracker-api
-		```
 
 Create a new .env file or use an existing .env file:
 
@@ -107,13 +102,11 @@ Install dependencies:
 
 		```bash
 		go mod tidy
-		```
 
 Run the project:
 
 		```bash
 		go run main.go
-		```
 
 ## 📚 Documentation
 
